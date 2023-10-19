@@ -17,8 +17,9 @@ We use a few abbreviation in the key bindings, they are:
 | Abbreviation | Description  |
 |--------------+--------------|
 | =SPC=        | Spacebar key |
-| =CMA=        | Comma key    |
 | =M=          | Meta key     |
+
+Note: we do use =zero width spaces= for some of the Org-mode escaping necessary to properly display the cheat sheet.
 
 * Windows Management
 
@@ -62,16 +63,16 @@ We use a few abbreviation in the key bindings, they are:
 
 * =org-mode=
 
-With org, I am prefixing all the commands with a comma =,= which triggers
+With org, I am prefixing all the commands with a comma =​,​= which triggers
 commands of the major mode, in this cased Org-mode.
 
 ** Babel /(Code blocks)/
 
-| Command   | Notes                                           |
-|-----------+-------------------------------------------------|
-| =CMA b t= | Tangle                                          |
-| =CMA '​=   | Open code block in a new buffer with major mode |
-|           |                                                 |
+| Command | Notes                                           |
+|---------+-------------------------------------------------|
+| =, b t= | Tangle                                          |
+| =​, '​=   | Open code block in a new buffer with major mode |
+|         |                                                 |
 
 ** Agenda
 
@@ -84,16 +85,16 @@ commands of the major mode, in this cased Org-mode.
 
 ** Table
 
-| Command     | Notes                                               |
-|-------------+-----------------------------------------------------|
-| =CMA t i r= | Create new row above cursor                         |
-| =CMA t w=   | Wrap a line within a Org table at cursor's position |
+| Command   | Notes                                               |
+|-----------+-----------------------------------------------------|
+| =​, t i r= | Create new row above cursor                         |
+| =​, t w=   | Wrap a line within a Org table at cursor's position |
 
 ** Edits
 
-| Command   | Notes                               |
-| =CMA i l= | Add a link for the highlighted text |
-|           |                                     |
+| Command | Notes                               |
+| =​, i l= | Add a link for the highlighted text |
+|         |                                     |
 
 * =python-mode=
 
