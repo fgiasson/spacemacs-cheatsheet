@@ -1,0 +1,108 @@
+#+TITLE: Spacemacs Cheat Sheet
+
+This is my personal Spacemacs commands cheat sheet, what I use on a regular
+basis. This is not meant to be a complete list of all available commands I use
+for the different work I have to do (coding in different languages, text writing
+and other Org-mode stuff).
+
+This list assumes the usage of =evil-mode= which is a mix of leader based
+Vim-like commands and opriginal Emacs-type commands.Most of the commands are Vi
+commands.
+
+Note that all the =leader based Vim-like= commands are performed when you are in
+=normal= mode.
+
+* Windows Management
+
+| Command              | Notes                            |
+|----------------------+----------------------------------|
+| =SPC w v=            | Split window right (vertical)    |
+| =SPC w s=            | Split window bellow (horizontal) |
+| =SPC w c C=          | Distraction free mode            |
+| =SPC w d=            | Delete window                    |
+| =M-1, M-2, M-3, ...= | Focus on given window            |
+
+
+* Search
+
+| Command   | Notes                                                            |
+|-----------+------------------------------------------------------------------|
+| =SPC s s= | Help Swoop: search for anything within a file with a sweet list  |
+|           | of live matches                                                  |
+| =SPC s p= | Search within the current project with a sweet list of live      |
+|           | matches                                                          |
+| =SPC s o= | Select all the words, within the file, under the cursor. This is |
+|           | helpful to perform subsequent operations such as replacing all   |
+|           | of them                                                          |
+
+* Multi-cursors
+
+| Command | Notes                                                       |
+|---------+-------------------------------------------------------------|
+| =g r r= | Place a cursor under each word of the document under cursor |
+| =g r q= | Remove all cursor except the normal one                     |
+| =g r h= | Make one cursor /here/                                      |
+
+* Lines Wrapping
+
+| Command   | Notes                                                |
+|-----------+------------------------------------------------------|
+| =SPC t f= | Toggle line fill indicator in buffer                 |
+| =M-q=     | Wrap text according to current =fill-column= setting |
+| =, t w=   | Wrap a line within a Org table at cursor's position  |
+
+* =org-mode=
+
+With org, I am prefixing all the commands with a comma =,= which triggers
+commands of the major mode, in this cased Org-mode.
+
+** Babel /(Code blocks)/
+
+| Command | Notes                                           |
+|---------+-------------------------------------------------|
+| =, b t= | Tangle                                          |
+| =, '=   | Open code block in a new buffer with major mode |
+|         |                                                 |
+
+** Agenda
+
+| Command     | Notes                                     |
+|-------------+-------------------------------------------|
+| =M-m a o o= | Open agenga                               |
+| =d=         | Toggle to day view from the week view     |
+| =w=         | Toggle to the week view from the day view |
+|             |                                           |
+
+** Table
+
+| Command   | Notes                                               |
+|-----------+-----------------------------------------------------|
+| =, t i r= | Create new row above cursor                         |
+| =, t w=   | Wrap a line within a Org table at cursor's position |
+
+** Edits
+
+| Command | Notes                               |
+| =, i l= | Add a link for the highlighted text |
+|         |                                     |
+
+* =python-mode=
+
+| Command | Notes |
+|---------+-------|
+|         |       |
+
+
+* Magit
+
+| Command   | Notes             |
+|-----------+-------------------|
+| =SPC g s= | Open Magit Status |
+|           |                   |
+
+* Themes
+
+| Command   | Notes                     |
+|-----------+---------------------------|
+| =SPC T s= | Select a new theme to use |
+|           |                           |
