@@ -133,6 +133,12 @@ commands of the major mode, in this cased Org-mode.
 |---------+-------|
 |         |       |
 
+* Shell
+
+| Command | Notes                     |
+|---------+---------------------------|
+| =SPC '​= | Open a new shell terminal |
+|         |                           |
 
 * Magit
 
