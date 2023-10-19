@@ -19,7 +19,18 @@ We use a few abbreviation in the key bindings, they are:
 | =SPC=        | Spacebar key |
 | =M=          | Meta key     |
 
-Note: we do use =zero width spaces= for some of the Org-mode escaping necessary to properly display the cheat sheet.
+Note: we do use =zero width spaces= for some of the Org-mode escaping necessary
+to properly display the cheat sheet.
+
+* Help
+
+Any time, you can press =SPC ?= to find all the possible key bindings for a
+given function. Take the one you prefer. In this cheatsheet, I display the ones
+I prefer personally, but some of the functions may have more than 4 or 5
+different keybindings!
+
+As a rule of thumb, if this is something I use very often, I often use the Emacs
+binding.
 
 * Windows Management
 
@@ -76,12 +87,13 @@ commands of the major mode, in this cased Org-mode.
 
 ** Agenda
 
-| Command     | Notes                                     |
-|-------------+-------------------------------------------|
-| =M-m a o o= | Open agenga                               |
-| =d=         | Toggle to day view from the week view     |
-| =w=         | Toggle to the week view from the day view |
-|             |                                           |
+| Command | Notes                                     |
+|---------+-------------------------------------------|
+| =C-c a= | Open agenga                               |
+| =d=     | Toggle to day view from the week view     |
+| =w=     | Toggle to the week view from the day view |
+| =C-c c= | Create new Org Capture                    |
+|         |                                           |
 
 ** Table
 
