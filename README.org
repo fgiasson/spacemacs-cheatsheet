@@ -12,6 +12,14 @@ commands.
 Note that all the =leader based Vim-like= commands are performed when you are in
 =normal= mode.
 
+We use a few abbreviation in the key bindings, they are:
+
+| Abbreviation | Description  |
+|--------------+--------------|
+| =SPC=        | Spacebar key |
+| =CMA=        | Comma key    |
+| =M=          | Meta key     |
+
 * Windows Management
 
 | Command              | Notes                            |
@@ -49,7 +57,8 @@ Note that all the =leader based Vim-like= commands are performed when you are in
 |-----------+------------------------------------------------------|
 | =SPC t f= | Toggle line fill indicator in buffer                 |
 | =M-q=     | Wrap text according to current =fill-column= setting |
-| =, t w=   | Wrap a line within a Org table at cursor's position  |
+| =CMA t w= | Wrap a line within a Org table at cursor's position  |
+|           |                                                      |
 
 * =org-mode=
 
@@ -58,11 +67,11 @@ commands of the major mode, in this cased Org-mode.
 
 ** Babel /(Code blocks)/
 
-| Command | Notes                                           |
-|---------+-------------------------------------------------|
-| =, b t= | Tangle                                          |
-| =, '=   | Open code block in a new buffer with major mode |
-|         |                                                 |
+| Command   | Notes                                           |
+|-----------+-------------------------------------------------|
+| =CMA b t= | Tangle                                          |
+| =CMA '=   | Open code block in a new buffer with major mode |
+|           |                                                 |
 
 ** Agenda
 
@@ -75,16 +84,16 @@ commands of the major mode, in this cased Org-mode.
 
 ** Table
 
-| Command   | Notes                                               |
-|-----------+-----------------------------------------------------|
-| =, t i r= | Create new row above cursor                         |
-| =, t w=   | Wrap a line within a Org table at cursor's position |
+| Command     | Notes                                               |
+|-------------+-----------------------------------------------------|
+| =CMA t i r= | Create new row above cursor                         |
+| =CMA t w=   | Wrap a line within a Org table at cursor's position |
 
 ** Edits
 
-| Command | Notes                               |
-| =, i l= | Add a link for the highlighted text |
-|         |                                     |
+| Command   | Notes                               |
+| =CMA i l= | Add a link for the highlighted text |
+|           |                                     |
 
 * =python-mode=
 
