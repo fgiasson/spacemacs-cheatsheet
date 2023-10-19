@@ -97,6 +97,17 @@ commands of the major mode, in this cased Org-mode.
 | =​, s A= | Org Archive                               |
 |         |                                           |
 
+
+** Dates/Timestamps
+
+| Command             | Notes                                        |
+|---------------------+----------------------------------------------|
+| =C-c .=             | Add minibuffer to show calendar              |
+| =S-RIGHT=, =S-LEFT= | move by one day in the calendar              |
+| =C-<=, =C->=        | move by one month in the calendar            |
+| =RETURN=            | insert a date/timestamp for the selected day |
+|                     |                                              |
+
 ** Table
 
 | Command   | Notes                                               |
