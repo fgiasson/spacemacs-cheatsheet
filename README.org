@@ -77,6 +77,12 @@ binding.
 With org, I am prefixing all the commands with a comma =​,​= which triggers
 commands of the major mode, in this cased Org-mode.
 
+| Command   | Notes                                             |
+|-----------+---------------------------------------------------|
+| =C-c C-n= | Move to the next /header/ within the Org file     |
+| =C-c C-p= | Move to the previous /header/ within the Org file |
+|           |                                                   |
+
 ** Babel /(Code blocks)/
 
 | Command | Notes                                           |
