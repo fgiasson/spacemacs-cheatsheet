@@ -57,7 +57,7 @@ We use a few abbreviation in the key bindings, they are:
 |-----------+------------------------------------------------------|
 | =SPC t f= | Toggle line fill indicator in buffer                 |
 | =M-q=     | Wrap text according to current =fill-column= setting |
-| =,​ t w=   | Wrap a line within a Org table at cursor's position  |
+| =​, t w=   | Wrap a line within a Org table at cursor's position  |
 |           |                                                      |
 
 * =org-mode=
@@ -70,7 +70,7 @@ commands of the major mode, in this cased Org-mode.
 | Command   | Notes                                           |
 |-----------+-------------------------------------------------|
 | =CMA b t= | Tangle                                          |
-| =CMA '=​   | Open code block in a new buffer with major mode |
+| =CMA '​=   | Open code block in a new buffer with major mode |
 |           |                                                 |
 
 ** Agenda
