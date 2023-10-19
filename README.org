@@ -93,7 +93,8 @@ commands of the major mode, in this cased Org-mode.
 | =d=     | Toggle to day view from the week view     |
 | =w=     | Toggle to the week view from the day view |
 | =C-c c= | Create new Org Capture                    |
-| =​, s r= | Org-refile                                |
+| =​, s r= | Org Refile                                |
+| =​, s A= | Org Archive                               |
 |         |                                           |
 
 ** Table
