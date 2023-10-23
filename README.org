@@ -89,6 +89,17 @@ commands of the major mode, in this cased Org-mode.
 | =C-c C-p= | Move to the previous /header/ within the Org file |
 |           |                                                   |
 
+* =org-roam=
+
+| Command       | Notes                                                                |
+|---------------+----------------------------------------------------------------------|
+| =SPC a o r c= | Capture new  notes                                                   |
+| =SPC a o r f= | Find a note to open                                                  |
+| =SPC a o r i= | Find a note to link to                                               |
+| =SPC a o r l= | Toggle the org-mode buffer (where the backlinks, etc. are displayed) |
+| =SPC a o r a= | Add an alias to the current node                                     |
+|               |                                                                      |
+
 ** Babel /(Code blocks)/
 
 | Command | Notes                                           |
