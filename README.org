@@ -60,7 +60,18 @@ binding.
 | =SPC s o= | Select all the words, within the file, under the cursor. This is |
 |           | helpful to perform subsequent operations such as replacing all   |
 |           | of them                                                          |
+| =SPC s f= | Find files within current directory                              |
+| =C-x c /= | Find files within current directory, recursively                 |
+|           |                                                                  |
 
+* Bookmarks
+
+| Command             | Notes                              |
+|---------------------+------------------------------------|
+| =C-x r l=           | Open the list of all set bookmarks |
+| =C-x r m=           | Set a bookmark to current file     |
+| =M-x save-bookmark= | To save all set bookmarks          |
+|                     |                                    |
 * Multi-cursors
 
 | Command | Notes                                                       |
