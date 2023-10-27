@@ -131,6 +131,30 @@ commands of the major mode, in this cased Org-mode.
 | =SPC a o r a= | Add an alias to the current node                                     |
 |               |                                                                      |
 
+** Tags
+
+| Command     | Notes                    |
+|-------------+--------------------------|
+| =​, i t=     | Add a tag to a header    |
+| =​, r t a=   | Add a tag in file header |
+| =SPC a o m= | Tags view.               |
+|             |                          |
+
+When querying the tag view, you can use '+', '-' and '|' to add, remove or ask
+for a choice. "+foo-bar" means "I want notes with 'foo' but not 'bar'".
+"foo|bar" means "give me the notes tagged with foo or bar".
+
+Querying tag views takes into account the tags inheritence (based on headers
+levels & filetags).
+
+[[https://orgmode.org/manual/Matching-tags-and-properties.html][Full matching documentation here.]]
+
+** Footnotes
+
+| Command | Notes |
+|---------+-------|
+| =​, i f= | Add a footnote from cursor position |
+
 ** Dates/Timestamps
 
 | Command             | Notes                                        |
