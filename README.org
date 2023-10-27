@@ -98,7 +98,6 @@ commands of the major mode, in this cased Org-mode.
 |-----------+---------------------------------------------------|
 | =C-c C-n= | Move to the next /header/ within the Org file     |
 | =C-c C-p= | Move to the previous /header/ within the Org file |
-|           |                                                   |
 
 ** Babel /(Code blocks)/
 
@@ -106,7 +105,6 @@ commands of the major mode, in this cased Org-mode.
 |---------+-------------------------------------------------|
 | =, b t= | Tangle                                          |
 | =​, '​=   | Open code block in a new buffer with major mode |
-|         |                                                 |
 
 ** Agenda
 
@@ -204,3 +202,14 @@ levels & filetags).
 |-----------+---------------------------|
 | =SPC T s= | Select a new theme to use |
 |           |                           |
+
+* Replacing text in several files
+
+To replace all occurrences of foo with bar in your current project:
+
+ 1. Initiate a search with =SPC /= (in a project)
+ 2. Open =helm-ag-edit= with =C-c C-e=
+ 3. Go to an occurrence of =foo= and enter =iedit-mode= with =SPC s e=
+ 4. Change =foo= to =bar=
+ 5. Save the modifications and leave =helm-ag-edit= with =C-c C-c=
+ 6. Alternatively, discard all changes and leave =helm-ag-edit= with =C-c C-k=
