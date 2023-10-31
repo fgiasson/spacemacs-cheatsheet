@@ -51,18 +51,24 @@ binding.
 
 * Search
 
-| Command   | Notes                                                            |
-|-----------+------------------------------------------------------------------|
-| =SPC s s= | Help Swoop: search for anything within a file with a sweet list  |
-|           | of live matches                                                  |
-| =SPC s p= | Search within the current project with a sweet list of live      |
-|           | matches                                                          |
-| =SPC s o= | Select all the words, within the file, under the cursor. This is |
-|           | helpful to perform subsequent operations such as replacing all   |
-|           | of them                                                          |
-| =SPC s f= | Find files within current directory                              |
-| =C-x c /= | Find files within current directory, recursively                 |
-|           |                                                                  |
+This list of shortcuts assumes that the =compleseus= layer is used, and not
+=helm= (default) nor =ivy=.
+
+| Command   | Notes                                                                                     |
+|-----------+-------------------------------------------------------------------------------------------|
+| =SPC s s= | Search for anything within a file with a sweet list                                       |
+|           | of live matches                                                                           |
+| =SPC s p= | Search within the current project with a sweet list of live                               |
+|           | matches                                                                                   |
+| =SPC s o= | Select all the words, within the file, under the cursor. This is                          |
+|           | helpful to perform subsequent operations such as replacing all                            |
+|           | of them                                                                                   |
+| =SPC s f= | Find files within a selected directory, recursively                                       |
+| =C-x C-d= | Find a directory, works with minibuffer. Requires =consult-dir=                           |
+| =M-s f=   | Find a file by name, from current directory, recursively                                  |
+| =M-g i=   | List and jump to items within a file. Could be Org headers, or Python functions/variables |
+| =M-g a=   | List all Org headers from all files listed in =org-agenda-files=                          |
+|           |                                                                                           |
 
 * Bookmarks
 
