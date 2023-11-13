@@ -214,7 +214,7 @@ levels & filetags).
 To replace all occurrences of foo with bar in your current project:
 
  1. Initiate a search with =SPC s f=
- 2. Open =embark-act= with =M-o e=
+ 2. Open =embark-act= with =M-o E=
  3. Go in edit mode with =SPC m w=
  4. Do the changes you want
  5. Save changes in all affected files with =C-x C-s=
