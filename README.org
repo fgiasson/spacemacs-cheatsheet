@@ -153,6 +153,17 @@ levels & filetags).
 
 [[https://orgmode.org/manual/Matching-tags-and-properties.html][Full matching documentation here.]]
 
+** Inline Task
+To enable that, you will need to enable it with:
+
+#+begin_src elisp
+(require 'org-inlinetask)
+#+end_src
+
+More information about inline task [[https://github.com/amluto/org-mode/blob/master/lisp/org-inlinetask.el][can be found here]].
+| Commands    | Notes                        |
+|-------------+------------------------------|
+| =C-c C-x t= | Add an inline task at cursor |
 ** Footnotes
 
 | Command | Notes |
