@@ -135,6 +135,11 @@ commands of the major mode, in this cased Org-mode.
 | =SPC a o r a= | Add an alias to the current node                                     |
 |               |                                                                      |
 
+** Todo
+| Commands  | Notes                                            |
+|-----------+--------------------------------------------------|
+| =C-c t t= | Add a todo to header under cursor                |
+| =M-m m p= | Add a priority between A and C to the TODO task= |
 ** Tags
 
 | Command     | Notes                    |
