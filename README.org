@@ -200,10 +200,10 @@ More information about inline task [[https://github.com/amluto/org-mode/blob/mas
 |         |                                     |
 
 ** Motion
-| Command   | Notes                                                                                                    |
-|-----------+----------------------------------------------------------------------------------------------------------|
-| =C-c C-n= | Move to next visible header                                                                              |
-| =C-c C-p= | Move to previous visible header                                                                          |
+| Command   | Notes                                                                                                                             |
+|-----------+-----------------------------------------------------------------------------------------------------------------------------------|
+| =C-c C-n= | Move to next visible header                                                                                                       |
+| =C-c C-p= | Move to previous visible header                                                                                                   |
 | =C-c s=   | Search to go to a specific header. Need to use Consult. Note that this is a key-binding I created referring =consult-org-heading= |
 ** Visibility
 | Commands | Notes                                                                         |
