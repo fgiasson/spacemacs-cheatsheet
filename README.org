@@ -140,7 +140,7 @@ commands of the major mode, in this cased Org-mode.
 | Commands  | Notes                                            |
 |-----------+--------------------------------------------------|
 | =C-c t t= | Add a todo to header under cursor                |
-| =M-m m p= | Add a priority between A and C to the TODO task= |
+| =​, p=    | Add a priority between A and C to the TODO task= |
 ** Tags
 
 | Command     | Notes                    |
