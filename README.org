@@ -34,13 +34,14 @@ binding.
 
 * Windows Management
 
-| Command              | Notes                            |
-|----------------------+----------------------------------|
-| =SPC w v=            | Split window right (vertical)    |
-| =SPC w s=            | Split window bellow (horizontal) |
-| =SPC w c C=          | Distraction free mode            |
-| =SPC w d=            | Delete window                    |
-| =M-1, M-2, M-3, ...= | Focus on given window            |
+| Command              | Notes                                                                                                 |
+|----------------------+-------------------------------------------------------------------------------------------------------|
+| =SPC w v=            | Split window right (vertical)                                                                         |
+| =SPC w s=            | Split window bellow (horizontal)                                                                      |
+| =SPC w c C=          | Distraction free mode                                                                                 |
+| =SPC w d=            | Delete window                                                                                         |
+| =M-1, M-2, M-3, ...= | Focus on given window                                                                                 |
+| =C-x /=              | Swap the buffer between two window. Note that this is a keybinding I created for =window-swap-states= |
 
 * Editing
 
