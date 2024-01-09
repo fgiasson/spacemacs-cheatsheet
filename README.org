@@ -69,7 +69,7 @@ This list of shortcuts assumes that the =compleseus= layer is used, and not
 | =M-s f=   | Find a file by name, from current directory, recursively                                  |
 | =M-g i=   | List and jump to items within a file. Could be Org headers, or Python functions/variables |
 | =M-g a=   | List all Org headers from all files listed in =org-agenda-files=                          |
-|           |                                                                                           |
+| =M-g s=   | Search within all Org files using ripgrep and following symlinks                          |
 
 * Bookmarks
 
