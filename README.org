@@ -73,10 +73,6 @@ This list of shortcuts assumes that the =compleseus= layer is used, and not
 |           | of them                                                                                   |
 | =SPC s f= | Find files within a selected directory, recursively                                       |
 | =C-x C-d= | Find a directory, works with minibuffer. Requires =consult-dir=                           |
-| =M-s f=   | Find a file by name, from current directory, recursively                                  |
-| =M-g i=   | List and jump to items within a file. Could be Org headers, or Python functions/variables |
-| =M-g a=   | List all Org headers from all files listed in =org-agenda-files=                          |
-| =M-g s=   | Search within all Org files using ripgrep and following symlinks                          |
 
 * Bookmarks
 
@@ -156,6 +152,20 @@ This list of shortcuts assumes that the =compleseus= layer is used, and not
 | =SPC a o r l= | Toggle the org-mode buffer (where the backlinks, etc. are displayed) |
 | =SPC a o r a= | Add an alias to the current node                                     |
 |               |                                                                      |
+
+** Remark
+
+It requires to have =org-remark= installed and those key bindings defined.
+
+| Command   | Notes                                                                              |
+|-----------+------------------------------------------------------------------------------------|
+| =C-c n m= | Mark a selection to add a remark. =org-remark-mark=                                |
+| =C-c n l= | Mark an entire line for a remark. =org-remark-mark-line=                           |
+| =C-c n o= | Open the remark file under cursor. =org-remark-open=                               |
+| =C-c n ]= | Move to next remark within the file. =org-remark-view-next=                        |
+| =C-c n [= | Move to previous remark within the file. =org-remark-view-previous=                |
+| =C-c n r= | Only remove the highlight at point. =org-remark-remove=                            |
+| =C-c n d= | Delete the highlight at point AND delete the remark note file. =org-remark-delete= |
 
 ** Todo
 
