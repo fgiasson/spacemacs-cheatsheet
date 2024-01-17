@@ -50,6 +50,13 @@ binding.
 | =C-x u= | Show the undo-tree visualization |
 |         |                                  |
 
+* Motions
+
+
+| Command | Notes                                                                                     |
+|---------+-------------------------------------------------------------------------------------------|
+| =M-g i= | List and jump to items within a file. Could be Org headers, or Python functions/variables |
+
 * Search
 
 This list of shortcuts assumes that the =compleseus= layer is used, and not
@@ -106,6 +113,20 @@ commands of the major mode, in this cased Org-mode.
 | =C-c C-n= | Move to the next /header/ within the Org file     |
 | =C-c C-p= | Move to the previous /header/ within the Org file |
 
+** Consult-Org (Search)
+
+This list of shortcuts assumes that the =compleseus= layer is used, and not
+=helm= (default) nor =ivy=.
+
+| Command | Notes                                                                                                                              |
+|---------+------------------------------------------------------------------------------------------------------------------------------------|
+| =M-g i= | List and jump to items within a file. Could be Org headers, or Python functions/variables                                          |
+| =M-g a= | List all Org headers from all files listed in =org-agenda-files=                                                                   |
+| =M-g s= | Search within all Org files using ripgrep and following symlinks                                                                   |
+| =M-g b= | List backlinks to  org-roam-node-at-point (e.g. currently open note) and sift through them with consult’s completing-read and its live preview =consult-org-roam-backlinks= |
+| =M-g f= | List forward links contained in the currently opened note =consult-org-roam-forward-links=                                         |
+| =M-g h= | Search to go to a specific header. Need to use Consult. Note that this is a key-binding I created referring =consult-org-heading=  |
+
 ** Babel /(Code blocks)/
 
 | Command | Notes                                           |
@@ -137,10 +158,12 @@ commands of the major mode, in this cased Org-mode.
 |               |                                                                      |
 
 ** Todo
+
 | Commands  | Notes                                            |
 |-----------+--------------------------------------------------|
 | =C-c t t= | Add a todo to header under cursor                |
-| =​, p=    | Add a priority between A and C to the TODO task= |
+| =​, p=     | Add a priority between A and C to the TODO task= |
+
 ** Tags
 
 | Command     | Notes                    |
@@ -167,9 +190,11 @@ To enable that, you will need to enable it with:
 #+end_src
 
 More information about inline task [[https://github.com/amluto/org-mode/blob/master/lisp/org-inlinetask.el][can be found here]].
+
 | Commands    | Notes                        |
 |-------------+------------------------------|
 | =C-c C-x t= | Add an inline task at cursor |
+
 ** Footnotes
 
 | Command | Notes |
@@ -200,16 +225,19 @@ More information about inline task [[https://github.com/amluto/org-mode/blob/mas
 |         |                                     |
 
 ** Motion
+
 | Command   | Notes                                                                                                                             |
 |-----------+-----------------------------------------------------------------------------------------------------------------------------------|
 | =C-c C-n= | Move to next visible header                                                                                                       |
 | =C-c C-p= | Move to previous visible header                                                                                                   |
-| =C-c s=   | Search to go to a specific header. Need to use Consult. Note that this is a key-binding I created referring =consult-org-heading= |
+
 ** Visibility
+
 | Commands | Notes                                                                         |
 |----------+-------------------------------------------------------------------------------|
 | =Tab=    | Local cycling of sub-headers when the cursor point to a header                |
 | =S-Tab=  | Global cycling of all headers in the buffer when the cursor point to a header |
+
 * =python-mode=
 
 | Command | Notes |
