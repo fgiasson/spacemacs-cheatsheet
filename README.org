@@ -273,6 +273,35 @@ More information about inline task [[https://github.com/amluto/org-mode/blob/mas
 | =SPC g s= | Open Magit Status |
 |           |                   |
 
+* Docker
+
+Those series of keybindings have been defined in the keyboard I use. See the
+next section for their equivalent in pure Spacemacs.
+
+| Command         | Notes                                                                 |
+|-----------------+-----------------------------------------------------------------------|
+| =Super d=       | Open Docker main menu                                                 |
+| =Super b=       | When in docker-mode, build the Dockerfile in the buffer               |
+| =Super-Shift b= | When in docker-mode, build the Dockerfile in the buffer without cache |
+| =Super c=       | Open Docker containers list                                           |
+| =Super-Shift c= | Open the containers actions menu                                      |
+| =Super i=       | Open Docker images list                                               |
+| =Super-Shift i= | Open the images actions menu                                          |
+
+The equivalent ones:
+
+| Command                     | Notes                                                                 |
+|-----------------------------+-----------------------------------------------------------------------|
+| =SPC a t d=                 | Open Docker main menu                                                 |
+| =, c b=                     | When in docker-mode, build the Dockerfile in the buffer               |
+| =, c B=                     | When in docker-mode, build the Dockerfile in the buffer without cache |
+| =SPC a t d c=               | Open Docker containers list                                           |
+| =M-x docker-container-help= | Open the containers actions menu                                      |
+| =SPC a t d i=               | Open Docker images list                                               |
+| =M-x docker-image-help=     | Open the images actions menu                                          |
+
+
+
 * Themes
 
 | Command   | Notes                     |
