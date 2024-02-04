@@ -53,9 +53,13 @@ binding.
 * Motions
 
 
-| Command | Notes                                                                                     |
-|---------+-------------------------------------------------------------------------------------------|
-| =M-g i= | List and jump to items within a file. Could be Org headers, or Python functions/variables |
+| Command        | Notes                                                                                     |
+|----------------+-------------------------------------------------------------------------------------------|
+| =M-g i=        | List and jump to items within a file. Could be Org headers, or Python functions/variables |
+| =C-c <left>=   | Shift the line or region ARG times to the left. uses =smart-shift-left=                   |
+| =C-c <right>=  | Shift the line or region ARG times to the right. uses =smart-shift-right=                 |
+| =C-c <top>=    | Shift the line or region ARG times to the top. uses =smart-shift-top=                     |
+| =C-c <bottom>= | Shift the line or region ARG times to the bottom. uses =smart-shift-bottom=               |
 
 * Search
 
