@@ -118,14 +118,15 @@ commands of the major mode, in this cased Org-mode.
 This list of shortcuts assumes that the =compleseus= layer is used, and not
 =helm= (default) nor =ivy=.
 
-| Command | Notes                                                                                                                              |
-|---------+------------------------------------------------------------------------------------------------------------------------------------|
-| =M-g i= | List and jump to items within a file. Could be Org headers, or Python functions/variables                                          |
-| =M-g a= | List all Org headers from all files listed in =org-agenda-files=                                                                   |
-| =M-g s= | Search within all Org files using ripgrep and following symlinks                                                                   |
+| Command | Notes                                                                                                                                                                       |
+|---------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| =M-g i= | List and jump to items within a file. Could be Org headers, or Python functions/variables                                                                                   |
+| =M-g a= | List all Org headers from all files listed in =org-agenda-files=                                                                                                            |
+| =M-g s= | Search within all Org files using ripgrep and following symlinks                                                                                                            |
 | =M-g b= | List backlinks to  org-roam-node-at-point (e.g. currently open note) and sift through them with consult’s completing-read and its live preview =consult-org-roam-backlinks= |
-| =M-g f= | List forward links contained in the currently opened note =consult-org-roam-forward-links=                                         |
-| =M-g h= | Search to go to a specific header. Need to use Consult. Note that this is a key-binding I created referring =consult-org-heading=  |
+| =M-g f= | List forward links contained in the currently opened note =consult-org-roam-forward-links=                                                                                  |
+| =M-g h= | Search to go to a specific header. Need to use Consult. Note that this is a key-binding I created referring =consult-org-heading=                                           |
+| =M-g l= | Shows all forward & backward links in Roam files, using =org-roam-links-depth=                                                                                              |
 
 ** Babel /(Code blocks)/
 
